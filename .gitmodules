@@ -10,3 +10,46 @@
 	path = teleop_tools
 	url = https://github.com/f1tenth/teleop_tools.git
 	branch = foxy-devel
+[submodule "drivers/transport_drivers"]
+	path = drivers/transport_drivers
+	url = https://github.com/ros-drivers/transport_drivers.git
+	branch = foxy
+[submodule "drivers/joystick_drivers"]
+	path = drivers/joystick_drivers
+	url = https://github.com/ros-drivers/joystick_drivers.git
+	branch = foxy-devel
+[submodule "etc/test_interface_files"]
+	path = etc/test_interface_files
+	url = https://github.com/ros2/test_interface_files.git
+	branch = foxy
+[submodule "hardware/LiDAR/laser_proc"]
+	path = hardware/LiDAR/laser_proc
+	url = https://github.com/ros-perception/laser_proc.git
+	branch = ros2-devel
+[submodule "hardware/LiDAR/urg_node"]
+	path = hardware/LiDAR/urg_node
+	url = https://github.com/ros-drivers/urg_node.git
+	branch = ros2-devel
+[submodule "hardware/LiDAR/urg_c"]
+	path = hardware/LiDAR/urg_c
+	url = https://github.com/ros-drivers/urg_c.git
+	branch = ros2-devel
+[submodule "etc/rosbridge_suite"]
+	path = etc/rosbridge_suite
+	url = https://github.com/RobotWebTools/rosbridge_suite.git
+	branch = ros2
+[submodule "msgs/ackermann_msgs"]
+	path = msgs/ackermann_msgs
+	url = https://github.com/ros-drivers/ackermann_msgs.git
+	branch = ros2
+[submodule "msgs/control_msgs"]
+	path = msgs/control_msgs
+	url = https://github.com/ros-controls/control_msgs.git
+	branch = foxy-devel
+[submodule "msgs/udp_msgs"]
+	path = msgs/udp_msgs
+	url = https://github.com/flynneva/udp_msgs.git
+[submodule "msgs/urg_node_msgs"]
+	path = msgs/urg_node_msgs
+	url = https://github.com/ros-drivers/urg_node_msgs.git
+	branch = iron
