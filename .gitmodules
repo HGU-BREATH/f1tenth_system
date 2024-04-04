@@ -49,6 +49,7 @@
 [submodule "msgs/udp_msgs"]
 	path = msgs/udp_msgs
 	url = https://github.com/flynneva/udp_msgs.git
+	branch = main
 [submodule "msgs/urg_node_msgs"]
 	path = msgs/urg_node_msgs
 	url = https://github.com/ros-drivers/urg_node_msgs.git
