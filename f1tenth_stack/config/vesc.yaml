@@ -7,7 +7,7 @@
 
     # servo value (0 to 1) =  steering_angle_to_servo_gain * steering angle (radians) + steering_angle_to_servo_offset
     steering_angle_to_servo_gain: -1.12   #-1.12
-    steering_angle_to_servo_offset: 0.564 #0.541 #0.517 # 0.4965 #0.5304 #middel value between servo_min and servo_max
+    steering_angle_to_servo_offset: 0.564 #0.563 # 0.4965 #0.5304 #middel value between servo_min and servo_max
 
     port: /dev/sensors/vesc
     duty_cycle_min: 0.0
@@ -20,8 +20,8 @@
     speed_max: 23250.0
     position_min: 0.0
     position_max: 0.0
-    servo_min: 0.263
-    servo_max: 0.865
+    servo_min: 0.283 #0.263
+    servo_max: 0.890 #0.865
 
 # No longer needed, all parameters are shared
 # ackermann_to_vesc_node:
